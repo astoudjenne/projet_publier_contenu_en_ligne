@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ad947c;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
