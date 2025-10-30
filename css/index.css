@@ -5,6 +5,10 @@
 
 body {
     background-color: #ad947c;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: ubuntu;
 }
 
 header {
@@ -22,10 +26,36 @@ header div {
 }
 
 header h1 {
-    color: white;
+    color: #ad947c;
 }
 
 header a {
-    color: white;
+    color: #ad947c;
     text-decoration: none;
+}
+
+.block {
+    min-height: 100vh;
+}
+
+#accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+#accueil img {
+    width: 100%;
+    height: 70vh;
+}
+
+#accueil button {
+    background-color: black;
+    color: #ad947c;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    align-items: center;
+    font-size: 17px;
 }
