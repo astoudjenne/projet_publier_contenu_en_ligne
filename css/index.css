@@ -59,3 +59,33 @@ header a {
     align-items: center;
     font-size: 17px;
 }
+
+#concept {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#concept div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#concept h1 {
+    background-color: black;
+    width: 500px;
+    padding: 10px;
+    color: #ad947c;
+    text-align: center;
+}
+
+#concept p {
+    font-size: 20px;
+}
+
+#concept img {
+    width: 300px;
+    border-radius: 10px;
+}
+
