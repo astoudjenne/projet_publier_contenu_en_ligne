@@ -156,3 +156,33 @@ header a {
     display: flex;
     gap: 5%;
 }
+
+footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ad947c;
+    padding: 10px;
+}
+
+.footer_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+footer button {
+    background-color: #ad947c;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer button:hover {
+    background-color: #b8a28e;
+}
